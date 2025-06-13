@@ -23,13 +23,13 @@ from torch.utils.data import DataLoader, Dataset
 np.set_printoptions(suppress=True)
 
 # Set up the page layout
-st.set_page_config(page_title="InspectorsAlly", page_icon=":camera:")
+st.set_page_config(page_title="Anomaly Detection", page_icon=":camera:")
 
 
-st.title("InspectorsAlly")
+st.title("Anomaly Detection ")
 
 st.caption(
-    "Boost Your Quality Control with InspectorsAlly - The Ultimate AI-Powered Inspection App"
+    "Boost Your Quality Control with Anomaly Detection - The Ultimate AI-Powered Inspection App"
 )
 
 st.write(
@@ -39,13 +39,13 @@ st.write(
 with st.sidebar:
     img = Image.open("./docs/overview_dataset.jpg")
     st.image(img)
-    st.subheader("About InspectorsAlly")
+    st.subheader("About Anomaly Detection App")
     st.write(
-        "InspectorsAlly is a powerful AI-powered application designed to help businesses streamline their quality control inspections. With InspectorsAlly, companies can ensure that their products meet the highest standards of quality, while reducing inspection time and increasing efficiency."
+        "Anomaly Detection is a powerful AI-powered application designed to help businesses streamline their quality control inspections. With Anomaly Detection, companies can ensure that their products meet the highest standards of quality, while reducing inspection time and increasing efficiency."
     )
 
     st.write(
-        "This advanced inspection app uses state-of-the-art computer vision algorithms and deep learning models to perform visual quality control inspections with unparalleled accuracy and speed. InspectorsAlly is capable of identifying even the slightest defects, such as scratches, dents, discolorations, and more on the Leather Product Images."
+        "This advanced inspection app uses state-of-the-art computer vision algorithms and deep learning models to perform visual quality control inspections with unparalleled accuracy and speed. Anomaly Detection is capable of identifying even the slightest defects, such as scratches, dents, discolorations, and more on the Leather Product Images."
     )
 
 
