@@ -36,17 +36,7 @@ st.write(
     "Try clicking a product image and watch how an AI Model will classify it between Good / Anomaly."
 )
 
-with st.sidebar:
-    img = Image.open("./docs/overview_dataset.jpg")
-    st.image(img)
-    st.subheader("About Anomaly Detection App")
-    st.write(
-        "Anomaly Detection is a powerful AI-powered application designed to help businesses streamline their quality control inspections. With Anomaly Detection, companies can ensure that their products meet the highest standards of quality, while reducing inspection time and increasing efficiency."
-    )
 
-    st.write(
-        "This advanced inspection app uses state-of-the-art computer vision algorithms and deep learning models to perform visual quality control inspections with unparalleled accuracy and speed. Anomaly Detection is capable of identifying even the slightest defects, such as scratches, dents, discolorations, and more on the Leather Product Images."
-    )
 
 
 # Define the functions to load images
